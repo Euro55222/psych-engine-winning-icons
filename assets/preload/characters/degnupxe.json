@@ -2,30 +2,8 @@
 	"animations": [
 		{
 			"offsets": [
-				-194,
-				-125
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Right"
-		},
-		{
-			"offsets": [
-				-140,
-				-338
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Down"
-		},
-		{
-			"offsets": [
-				-88,
-				25
+				-15,
+				261
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,11 +13,11 @@
 		},
 		{
 			"offsets": [
-				99,
-				-135
+				-2,
+				116
 			],
 			"loop": false,
-			"fps": 20,
+			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
 			"name": "Left"
@@ -47,43 +25,54 @@
 		{
 			"loop": false,
 			"offsets": [
-				250,
-				120
+				-216,
+				115
 			],
-			"anim": "shoot",
+			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "shoot",
+			"name": "Right",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				260,
-				130
+				10,
+				70
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				90
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "shoot",
+			"name": "Idle",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/futileshoot",
+	"image": "characters/meta",
 	"position": [
 		0,
 		0
 	],
-	"healthicon": "futilebambi",
+	"healthicon": "meta",
 	"flip_x": false,
 	"healthbar_colors": [
-		0,
-		0,
-		0
+		255,
+		255,
+		255
 	],
 	"camera_position": [
-		-420,
-		-400
+		-170,
+		-100
 	],
 	"sing_duration": 4,
-	"scale": 3.9
+	"scale": 1.6
 }

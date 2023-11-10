@@ -2,88 +2,77 @@
 	"animations": [
 		{
 			"offsets": [
-				-194,
-				-125
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Right"
-		},
-		{
-			"offsets": [
-				-140,
-				-338
+				-14,
+				-159
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "Down"
+			"name": "dOWN"
 		},
 		{
 			"offsets": [
-				-88,
-				25
+				119,
+				-65
 			],
 			"loop": false,
 			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				42,
+				35
+			],
+			"loop": false,
+			"fps": 30,
 			"anim": "singUP",
 			"indices": [],
 			"name": "Up"
 		},
 		{
 			"offsets": [
-				99,
-				-135
+				-64,
+				-103
 			],
 			"loop": false,
-			"fps": 20,
-			"anim": "singLEFT",
+			"fps": 34,
+			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Left"
+			"name": "Right"
 		},
 		{
-			"loop": false,
+			"loop": true,
 			"offsets": [
-				250,
-				120
-			],
-			"anim": "shoot",
-			"fps": 24,
-			"name": "shoot",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				260,
-				130
+				10,
+				-30
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "shoot",
+			"name": "Idle",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/futileshoot",
+	"image": "characters/Kalmpokebam",
 	"position": [
-		0,
-		0
+		20,
+		20
 	],
-	"healthicon": "futilebambi",
+	"healthicon": "garcello",
 	"flip_x": false,
 	"healthbar_colors": [
-		0,
-		0,
-		0
+		195,
+		255,
+		235
 	],
 	"camera_position": [
-		-420,
-		-400
+		-80,
+		110
 	],
 	"sing_duration": 4,
-	"scale": 3.9
+	"scale": 1
 }

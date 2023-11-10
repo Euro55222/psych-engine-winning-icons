@@ -2,88 +2,77 @@
 	"animations": [
 		{
 			"offsets": [
-				-194,
-				-125
+				-161,
+				-460
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-154,
+				-435
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Right"
+			"name": "right"
 		},
 		{
 			"offsets": [
 				-140,
-				-338
+				-478
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "Down"
+			"name": "down"
 		},
 		{
 			"offsets": [
 				-88,
-				25
+				-425
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "Up"
+			"name": "up"
 		},
 		{
+			"loop": true,
 			"offsets": [
-				99,
-				-135
-			],
-			"loop": false,
-			"fps": 20,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Left"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				250,
-				120
-			],
-			"anim": "shoot",
-			"fps": 24,
-			"name": "shoot",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				260,
-				130
+				-140,
+				-430
 			],
 			"anim": "idle",
 			"fps": 24,
-			"name": "shoot",
+			"name": "what",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/futileshoot",
+	"image": "characters/bambi_waitwhatnow",
 	"position": [
 		0,
 		0
 	],
-	"healthicon": "futilebambi",
+	"healthicon": "bambi",
 	"flip_x": false,
 	"healthbar_colors": [
 		0,
-		0,
+		185,
 		0
 	],
 	"camera_position": [
-		-420,
-		-400
+		130,
+		410
 	],
 	"sing_duration": 4,
-	"scale": 3.9
+	"scale": 1.1
 }
